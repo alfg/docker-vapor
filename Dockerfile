@@ -1,8 +1,11 @@
 FROM swift:latest
 
-RUN /bin/bash -c "$(curl -sL https://apt.vapor.sh)"
 RUN apt-get update && apt-get -y install \
-    tzdata wget vapor \
+    tzdata wget
+
+RUN /bin/bash -c "$(wget -qO- https://apt.vapor.sh)"
+
+RUN apt-get update && apt-get -y install vapor \
     && rm -r /var/lib/apt/lists/*
 
 EXPOSE 8080
