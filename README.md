@@ -1,6 +1,10 @@
 # Docker Vapor
 A simple Docker Vapor example.
 
+[![Docker Stars](https://img.shields.io/docker/stars/alfg/vapor.svg)](https://hub.docker.com/r/alfg/vapor/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/alfg/vapor.svg)](https://hub.docker.com/r/alfg/vapor/)
+[![Docker Automated build](https://img.shields.io/docker/automated/alfg/nginx-rtmp.svg)](https://hub.docker.com/r/alfg/vapor/builds/)
+
 ## Usage
 
 * Build Docker image:
